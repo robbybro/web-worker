@@ -7,6 +7,8 @@ import path from 'path';
 import webpack from 'webpack';
 import bodyParser from 'body-parser';
 
+// const webWorker = require('./webWorker');
+
 process.on('uncaughtException', function(err) {
     console.error(
         new Date().toUTCString(),
@@ -56,6 +58,9 @@ app.get('/title', function(req, res) {
     return res.json({
         title: 'Hello World!',
     });
+});
+app.get('/webWorker.js', function(req, res) {
+    return res.sendFile(path.resolve(__dirname, 'webWorker.js'));
 });
 
 app.listen(port, function() {

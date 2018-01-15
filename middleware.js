@@ -3,8 +3,7 @@ export default (req, res) => {
 		<!doctype html>
 		<html>
 			<head>
-			<title>Typescript Webpack Node Docker Starter</title>
-			<link rel="manifest" href="/manifest.json">
+			<title>Web Worker Example</title>
 				${
                     process.env.NODE_ENV === 'production'
                         ? '<link rel="stylesheet" href="/bundle.css"></link>'

@@ -1,7 +1,7 @@
 {
-  "name": "typescript-webpack-node-docker-starter",
+  "name": "web-worker",
   "version": "1.0.0",
-  "description": "starter project for typescript/webpack/node development, with docker for CI",
+  "description": "web worker example",
   "main": "server.js",
   "devDependencies": {
     "@types/jasmine": "^2.8.4",
@@ -83,7 +83,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robbybro/typescript-webpack-node-docker-starter.git"
+    "url": "git+https://github.com/robbybro/web-worker.git"
   },
   "keywords": [
     "typescript",
@@ -95,7 +95,7 @@
   "author": "robbybro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/robbybro/typescript-webpack-node-docker-starter/issues"
+    "url": "https://github.com/robbybro/web-worker/issues"
   },
-  "homepage": "https://github.com/robbybro/typescript-webpack-node-docker-starter#readme"
+  "homepage": "https://github.com/robbybro/web-workerr#readme"
 }
